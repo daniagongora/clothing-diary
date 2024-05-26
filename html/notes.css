@@ -1,0 +1,31 @@
+.main{
+    background-image: url("images/pink.jpg");
+}
+/* Basic styling for the notepad container */
+.notepad-container {
+    width: 50%; /* Adjust width as needed */
+    margin: 1% auto; /* Center the notepad */
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styling for the header */
+  h1 {
+    text-align: center;
+    margin-bottom: 30%;
+    font-family: 'Kanit', sans-serif;
+  }
+  
+  /* Styling for the textarea */
+  #note-textarea {
+    width: 100%;
+    height: 300px; /* Adjust height as needed */
+    resize: vertical; /* Allow resizing vertically */
+    padding: 1%;
+    font-family: monospace; /* Use a monospace font for better code readability */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  

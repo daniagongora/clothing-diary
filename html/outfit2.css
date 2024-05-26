@@ -1,0 +1,168 @@
+/* The sidebar menu */
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 20%; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-image: url("images/encuadenado.jpg");
+
+
+  }
+/* Add a black background color to the top navigation */
+.topnav {
+
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav div {
+    height: 100px;
+    width: 200px;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  .main {
+    background-image: url("images/denim-jeans-cloth-material.jpg");
+
+}
+
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+
+  .right-arrow{
+    height: 100px;
+    width: 200px;
+}
+.right-arrow img{
+    margin-top: 250%;
+    margin-left: 600%;
+    height: 100px;
+    width: 100px;
+}
+.left-arrow{
+    height: 100px;
+    width: 200px;
+}
+.left-arrow img{
+    margin-top: 200%;
+    margin-left: 350%;
+    height: 100px;
+    width: 100px;
+}
+.confg{
+    height: 100px;
+    width: 200px;
+}
+.confg img{
+    margin-left: 800%;
+    height: 100%;
+    width: 50%;
+}
+.diary{
+    height: 100px;
+    width: 200px;
+}
+.diary img{
+    margin-left: 235%;
+    margin-top: 50%;
+    height: 100%;
+    width: 50%;
+}
+.clothes{
+    height: 80%;
+    width: 60%;
+    margin-left: 40%;
+}
+.top{
+    height: 100px;
+    width: 200px;
+}
+.top img {
+    margin-left: 110%;
+    height: 100%;
+    width: 60%;
+}
+.middle{
+    height: 120px;
+    width: 200px;
+}
+.middle img {
+    margin-left: 70%;
+    height: 200%;
+    width: 150%;
+}
+.bottom{
+    height: 120px;
+    width: 200px;
+}
+.bottom img {
+    margin-top: 40%;
+    margin-left: 70%;
+    height: 300%;
+    width: 150%;
+}
+.shoes{
+    height: 100px;
+    width: 200px;
+}
+.shoes img {
+    margin-top: 100%;
+    margin-left: 90%;
+    height: 300%;
+    width: 100%;
+}
+.btn{
+    margin-left: 80%;
+    margin-top: 10%;
+}
+.btn button{
+    text-decoration:none;
+  color:#fff;
+  margin:auto;
+  width:150px;
+  display:inline-block;
+  line-height:40px;
+  font-size:12px;
+  font-weight:500;
+  letter-spacing:2px;
+  border-radius:3px;
+  text-transform:uppercase;
+  background-color: #c70069;
+  box-shadow: 0px 15px 18px -6px rgba(199, 0, 105, 0.65);
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  position: relative;
+}
+
+/* ... existing styles ... */
+
+/* Styles for the settings menu (hidden by default) */
+.settings-menu {
+    display: none; /* Hide the menu initially */
+    position: absolute; /* Position relative to the trigger element */
+    top: 30px; /* Adjust as needed */
+    left: -80px; /* Adjust to position relative to the trigger element */
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styles for the settings menu when open */
+  .settings-menu.active {
+    display: block;
+  }
+  
